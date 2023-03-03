@@ -145,7 +145,7 @@ app.delete("/shop/:id", (req,res)=>{
 })
 
 
-const port = 3002
+const port = 3000
 
 app.listen(port, () => {
     console.log(` we are in port ${port}`)
